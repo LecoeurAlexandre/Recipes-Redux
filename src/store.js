@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-//import contactsSlice from "./components/contacts/contactsSlice";
+import authSlice from "./Components/authSlice";
 //import todoItemsSlice from "./components/todoItems/todoItemsSlice";
 
 /*
@@ -15,7 +15,7 @@ import { configureStore } from "@reduxjs/toolkit";
 
 const store = configureStore({
   reducer: {
-    //todoItems: todoItemsSlice,
+    auth: authSlice,
     //contacts: contactsSlice
   }
 })
